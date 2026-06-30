@@ -1,0 +1,35 @@
+{
+  "project_name": "منصة تعليم إلكترونية لمدارس",
+  "project_type": "school_management",
+  "color_palette": "slate-900 and indigo-500",
+  "modules": [
+    "طلاب (Students)",
+    "مدرسين (Teachers)",
+    "مقررات (Courses)"
+  ],
+  "pages": [
+    "صفحة الدخول (Login)",
+    "صفحة تسجيل الدخول (Register)",
+    "قائمة الطلاب (List Students)",
+    "قائمة المقررات (List Courses)",
+    "صفحة الإدارة (Admin Page)"
+  ],
+  "permissions": {
+    "guest": [
+      "صفحة الدخول (Login)",
+      "صفحة تسجيل الدخول (Register)"
+    ],
+    "user": [
+      "قائمة الطلاب (List Students)",
+      "قائمة المقررات (List Courses)"
+    ],
+    "admin": [
+      "قائمة الطلاب (List Students)",
+      "قائمة المقررات (List Courses)",
+      "صفحة الإدارة (Admin Page)",
+      "إدارة المحتوى (Content Management)",
+      "إدارة الاختبارات (Exam Management)",
+      "تقييم الطلاب (Student Evaluation)"
+    ]
+  }
+}
