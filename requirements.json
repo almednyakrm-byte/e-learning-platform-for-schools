@@ -1,0 +1,52 @@
+{
+  "project_name": "منصة تعليم إلكتروني لمدارس مع أدوات تقييم متقدمة",
+  "project_type": "school_management",
+  "color_palette": "slate-900 and indigo-500",
+  "modules": [
+    "students",
+    "teachers",
+    "courses",
+    "grades"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "list_students",
+    "list_courses",
+    "list_grades",
+    "student_profile",
+    "teacher_profile",
+    "course_details",
+    "grade_report"
+  ],
+  "permissions": {
+    "guest": [
+      "login",
+      "register"
+    ],
+    "user": [
+      "index",
+      "list_students",
+      "list_courses",
+      "list_grades",
+      "student_profile",
+      "course_details",
+      "grade_report"
+    ],
+    "admin": [
+      "index",
+      "list_students",
+      "list_courses",
+      "list_grades",
+      "student_profile",
+      "teacher_profile",
+      "course_details",
+      "grade_report",
+      "manage_students",
+      "manage_teachers",
+      "manage_courses",
+      "manage_grades"
+    ]
+  }
+}
